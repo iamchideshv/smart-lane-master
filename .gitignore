@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Large binary files - not suitable for GitHub
+*.zip
+*.pt
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Temp and build directories
+remote_repo_temp/
+temp_repo/
+smart-lane-master-main/
+node_modules/
+dist/
+
+# Stack video (large media files)
+stack video/
